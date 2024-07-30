@@ -1,0 +1,13 @@
+How to Play the Matching Game:
+
+1.Start the Game: Press any key to begin. The game will show a sequence of colored buttons that you need to remember.
+
+2.Watch the Sequence: Pay close attention to the flashing colors in the sequence. Each round, a new color is added.
+
+3.Repeat the Sequence: Click the colored buttons in the same order they flashed.
+
+4.Continue and Score: Each correct sequence takes you to the next level. The game ends when you make a mistake. Try to beat your high score!
+
+5.Restart: After a game over, press any key to start again. The highest score you achieve will be displayed on the screen.
+
+6.ENJOY!!
