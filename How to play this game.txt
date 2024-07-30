@@ -11,3 +11,5 @@ How to Play the Matching Game:
 5.Restart: After a game over, press any key to start again. The highest score you achieve will be displayed on the screen.
 
 6.ENJOY!!
+
+7.Link : https://parag-deb.github.io/Matching-Matching-Game-With-JS/
