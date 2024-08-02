@@ -8,14 +8,25 @@ let btns =["yellow" , "red" , "purple" , "green"];
  let h2 = document.querySelector("h2");
  let highScoreDisplay = document.getElementById("high-score");
 
- document.addEventListener("keypress", function(){
-    if(started == false){
-        console.log("game is started");
-        started = true;
+//  document.addEventListener("clicked", function(){
+//     if(started == false){
+//         console.log("game is started");
+//         started = true;
 
-        levelup();
-    }
- });
+//         levelup();
+//     }
+//  });
+
+// new one for click
+function startGame() {
+   if (!started) {
+       console.log("Game started");
+       started = true;
+       levelup();
+   }
+}
+
+
  function gameFlash(btn){
     btn.classList.add("flash");
     setTimeout(function(){
@@ -73,6 +84,10 @@ let btns =["yellow" , "red" , "purple" , "green"];
  function btnPress(){
     // console.log("button is pressed");
     // console.log(this);
+    if (!started) { // new one for click
+      startGame();
+      return;
+  }
     let btn =this;
     userFlash(btn);
 
