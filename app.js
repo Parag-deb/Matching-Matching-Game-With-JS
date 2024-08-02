@@ -70,7 +70,7 @@ function startGame() {
     else{
        high_Score = Math.max(high_Score, level);
        highScoreDisplay.textContent = high_Score;
-        h2.innerHTML = `Game Over!! Your Score Was <b>${level}</b>!!  <br>Press any key to start...`;
+        h2.innerHTML = `Game Over!! Your Score Was <b>${level}</b>!!  <br>Click any key to start...`;
       //   <br><b>HIGH SCORE IS ${high_Score}!!</b>
         document.querySelector("body").style.backgroundColor = "red";
         setTimeout(function(){
